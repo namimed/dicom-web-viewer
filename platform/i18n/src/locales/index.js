@@ -6,6 +6,7 @@ import es from './es/';
 import fr from './fr/';
 import ja_JP from './ja-JP/';
 import nl from './nl/';
+import pl from './pl/';
 import pt_BR from './pt-BR/';
 import vi from './vi/';
 import zh from './zh/';
@@ -20,6 +21,7 @@ export default {
   ...fr,
   ...ja_JP,
   ...nl,
+  ...pl,
   ...pt_BR,
   ...vi,
   ...zh,

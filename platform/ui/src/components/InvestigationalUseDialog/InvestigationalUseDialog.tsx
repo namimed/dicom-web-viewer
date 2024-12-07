@@ -71,15 +71,15 @@ const InvestigationalUseDialog = ({
           />
           <div className="flex flex-col">
             <div className="text-[19px] text-white">
-              OHIF Viewer is{' '}
-              <span className="text-primary-light">for investigational use only</span>
+              Przeglądarka OHIF przenaczona jest wyłącznie{' '}
+              <span className="text-primary-light">do celów poglądowych.</span>
             </div>
             <div className="text-[13px] text-white">
               <span
                 className="text-primary-active cursor-pointer"
                 onClick={() => window.open('https://ohif.org/', '_blank')}
               >
-                Learn more about OHIF Viewer
+                Dowiedz się więcej
               </span>
             </div>
           </div>

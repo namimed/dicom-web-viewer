@@ -1,0 +1,9 @@
+{
+  "Cancel": "$t(Buttons:Cancel)",
+  "No hotkeys found": "Nie znaleziono skrótów klawiszowych. Można je skonfigurować w pliku app-config.js.",
+  "Reset to defaults": "$t(Buttons:Reset to defaults)",
+  "ResetDefaultMessage": "Preferencje zresetowane do domyślnych. <br /> Musisz kliknąć <strong>Zapisz</strong>, aby wykonać tę akcję.",
+  "Save": "$t(Buttons:Save)",
+  "SaveMessage": "Preferencje zapisane",
+  "User preferences": "Preferencje użytkownika"
+}

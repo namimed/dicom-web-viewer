@@ -1,0 +1,20 @@
+{
+  "AccessionNumber": "Numer dostępu",
+  "ClearFilters": "Wyczyść filtry",
+  "Description": "Opis",
+  "Empty": "Puste",
+  "Filter list to 100 studies or less to enable sorting": "Aby włączyć sortowanie, przefiltruj listę do 100 lub mniej badań",
+  "Instances": "Instancje",
+  "Modality": "Modalność",
+  "MRN": "Numer MRN",
+  "Next": "Następny >",
+  "No studies available": "Brak dostępnych badań",
+  "Number of studies": "Liczba badań",
+  "Page": "Strona",
+  "PatientName": "Imię i nazwisko pacjenta",
+  "Previous": "< Poprzedni",
+  "Results per page": "Wyniki na stronę",
+  "StudyDate": "Data badania",
+  "StudyList": "Lista badań",
+  "Upload": "Prześlij"
+}

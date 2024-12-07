@@ -1,0 +1,16 @@
+{
+  "Display Set Messages": "Komunikaty zestawu wyświetlania",
+  "1": "Nie znaleziono prawidłowych instancji w serii.",
+  "2": "Zestaw wyświetlania nie ma informacji o położeniu.",
+  "3": "Zestaw wyświetlania nie jest rekonstruowalnym wolumenem 3D.",
+  "4": "Wieloklatkowe zestawy wyświetlania nie mają informacji o pomiarze pikseli.",
+  "5": "Wieloklatkowe zestawy wyświetlania nie mają informacji o orientacji.",
+  "6": "Wieloklatkowe zestawy wyświetlania nie mają informacji o położeniu.",
+  "7": "Zestaw wyświetlania ma brakujące klatki.",
+  "8": "Zestaw wyświetlania ma nieregularne odstępy.",
+  "9": "Zestaw wyświetlania ma niezgodne wymiary między klatkami.",
+  "10": "Zestaw wyświetlania ma klatki z niezgodną liczbą komponentów.",
+  "11": "Zestaw wyświetlania ma klatki z niezgodnymi orientacjami.",
+  "12": "Zestaw wyświetlania ma niezgodne informacje o położeniu.",
+  "13": "Nieobsługiwany zestaw wyświetlania."
+}
