@@ -61,7 +61,7 @@ COPY platform/*/package.json platform/
 # Run the install before copying the rest of the files
 RUN bun install
 # Copy the local directory
-COPY --link --exclude=yarn.lock --exclude=package.json --exclude=Dockerfile . .
+COPY . .
 # Do a second install to finalize things after the copy
 RUN bun run show:config
 RUN bun install
