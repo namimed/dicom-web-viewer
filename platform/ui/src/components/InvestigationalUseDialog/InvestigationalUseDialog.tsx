@@ -87,7 +87,7 @@ const InvestigationalUseDialog = ({
           className="bg-primary-main"
           dataCY="confirm-and-hide-button"
         >
-          Potwierdź i Zamknij
+          Potwierdzam
         </Button>
       </div>
     </div>

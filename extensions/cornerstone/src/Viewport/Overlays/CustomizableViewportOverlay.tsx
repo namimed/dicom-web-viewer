@@ -71,7 +71,29 @@ const topLeftItems = {
   items: [studyDateItem, seriesDescriptionItem],
 };
 
-const topRightItems = { id: 'cornerstoneOverlayTopRight', items: [] };
+const topRightItems = {
+  id: 'cornerstoneOverlayTopRight',
+  items: [
+    {
+      id: 'PatientNameOverlay',
+      // Note below that here we are using the customization prototype of
+      // `ohif.overlayItem` which was registered to the customization module in
+      // `ohif/extension-default` extension.
+      customizationType: 'ohif.overlayItem',
+      // the following props are passed to the `ohif.overlayItem` prototype
+      // which is used to render the overlay item based on the label, color,
+      // conditions, etc.
+      attribute: 'PatientName',
+      label: 'Pacjent:',
+      title: 'Pacjent',
+      color: 'yellow',
+      condition: ({ instance }) => instance?.PatientName,
+      contentF: ({ instance, formatters: { formatPN } }) =>
+        formatPN(instance.PatientName) +
+        (instance.PatientSex ? ' (' + instance.PatientSex + ')' : ''),
+    },
+  ],
+};
 
 const bottomLeftItems = {
   id: 'cornerstoneOverlayBottomLeft',

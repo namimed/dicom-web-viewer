@@ -129,7 +129,7 @@ function ViewerHeader({
         )
       }
     >
-      <div className="relative flex justify-center gap-[4px]">
+      <div className="relative flex justify-center gap-[2px]">
         <Toolbar servicesManager={servicesManager} />
       </div>
     </Header>

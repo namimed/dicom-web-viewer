@@ -56,26 +56,26 @@ export const mpr: Types.HangingProtocol.Protocol = {
       viewportStructure: {
         layoutType: 'grid',
         properties: {
-          rows: 1,
-          columns: 3,
+          rows: 3,
+          columns: 1,
           layoutOptions: [
             {
               x: 0,
               y: 0,
-              width: 1 / 3,
-              height: 1,
+              width: 1,
+              height: 1 / 3,
             },
             {
-              x: 1 / 3,
-              y: 0,
-              width: 1 / 3,
-              height: 1,
+              x: 0,
+              y: 1 / 3,
+              width: 1,
+              height: 1 / 3,
             },
             {
-              x: 2 / 3,
-              y: 0,
-              width: 1 / 3,
-              height: 1,
+              x: 0,
+              y: 2 / 3,
+              width: 1,
+              height: 1 / 3,
             },
           ],
         },

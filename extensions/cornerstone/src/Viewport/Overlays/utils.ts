@@ -32,7 +32,7 @@ export function formatNumberPrecision(number, precision = 0) {
  * @returns {string} formatted date.
  */
 export function formatDICOMDate(date, strFormat = 'MMM D, YYYY') {
-  return moment(date, 'YYYYMMDD').format(strFormat);
+  return moment(date, 'YYYYMMDD').locale('pl').format(strFormat);
 }
 
 /**
@@ -49,7 +49,7 @@ export function formatDICOMDate(date, strFormat = 'MMM D, YYYY') {
  * @returns {string} formatted name.
  */
 export function formatDICOMTime(time, strFormat = 'HH:mm:ss') {
-  return moment(time, 'HH:mm:ss').format(strFormat);
+  return moment(time, 'HH:mm:ss').locale('pl').format(strFormat);
 }
 
 /**

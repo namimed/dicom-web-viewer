@@ -11,6 +11,8 @@ import {
 } from '../';
 
 import NavBar from '../NavBar';
+import Logo from './logo.png';
+import LogoBig from './logo-big.png';
 
 // Todo: we should move this component to composition and remove props base
 
@@ -66,8 +68,17 @@ function Header({
             data-cy="return-to-work-list"
           >
             {isReturnEnabled && <Icons.ArrowLeft className="text-primary-active w-8" />}
-            <div className="ml-1">
-              {WhiteLabeling?.createLogoComponentFn?.(React, props) || <Icons.OHIFLogo />}
+            <div className="ml-1 px-4">
+              <img
+                src={Logo}
+                alt="Logo"
+                className="h-8 w-8 md:hidden"
+              />
+              <img
+                src={LogoBig}
+                alt="Logo"
+                className="hidden h-8 w-16 invert md:block"
+              />
             </div>
           </div>
         </div>
@@ -76,7 +87,6 @@ function Header({
           <div className="flex items-center justify-center space-x-2">{children}</div>
         </div>
         <div className="absolute right-0 top-1/2 flex -translate-y-1/2 select-none items-center">
-          {PatientInfo}
           <div className="border-primary-dark mx-1.5 h-[25px] border-r"></div>
           <div className="flex-shrink-0">
             <DropdownMenu>
@@ -84,7 +94,7 @@ function Header({
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="text-primary-active hover:bg-primary-dark mt-2 h-full w-full"
+                  className="text-primary-active hover:bg-primary-dark mt-2 hidden h-full w-full sm:flex"
                 >
                   <Icons.GearSettings />
                 </Button>

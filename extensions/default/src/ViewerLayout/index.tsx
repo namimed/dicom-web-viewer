@@ -129,6 +129,7 @@ function ViewerLayout({
               side="left"
               activeTabIndex={leftPanelClosedState ? null : 0}
               servicesManager={servicesManager}
+              className="hidden sm:flex"
             />
           ) : null}
           {/* TOOLBAR + GRID */}
@@ -146,6 +147,7 @@ function ViewerLayout({
               side="right"
               activeTabIndex={rightPanelClosedState ? null : 0}
               servicesManager={servicesManager}
+              className="hidden sm:flex"
             />
           ) : null}
         </React.Fragment>
